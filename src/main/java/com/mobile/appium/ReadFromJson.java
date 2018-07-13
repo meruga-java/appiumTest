@@ -31,7 +31,6 @@ public class ReadFromJson {
 			Iterator<Map.Entry> itr1 = address.entrySet().iterator();
 			while (itr1.hasNext()) {
 				Map.Entry pair = itr1.next();
-				System.out.println(pair.getKey() + " : " + pair.getValue());
 				capabilities.setCapability((String) pair.getKey(), pair.getValue());
 			}
 		} catch (FileNotFoundException e) {
