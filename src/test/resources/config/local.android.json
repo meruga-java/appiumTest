@@ -1,0 +1,13 @@
+{
+        "hubUrl" : "http://localhost:4723",
+        "platform" : "ANDROID",
+        "caps" :{
+            "newCommandTimeout" : "300",
+            "deviceName" : "Samsung Galaxy S7",
+            "platformName" : "Android",
+            "platformVersion" : "6.0.1",
+            "automationName" : "uiautomator2",
+            "appPackage" : "com.ace.shell.memberBeta",
+            "appActivity" : "com.ace.shell.launcherActivity.LauncherActivity"
+        }
+}

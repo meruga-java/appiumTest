@@ -1,0 +1,110 @@
+2018-07-13 13:59:45 INFO  BaseMobileTest:33 - ===========Starting Test============
+2018-07-13 13:59:45 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-07-13 13:59:45 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-07-13 13:59:45 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-07-13 13:59:46 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-07-13 13:59:46 DEBUG MainClientExec:235 - Opening connection {}->http://127.0.0.1:4723
+2018-07-13 13:59:46 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /127.0.0.1:4723
+2018-07-13 13:59:46 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:51881<->127.0.0.1:4723
+2018-07-13 13:59:46 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-07-13 13:59:46 DEBUG MainClientExec:256 - Executing request POST /wd/hub/session HTTP/1.1
+2018-07-13 13:59:46 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-07-13 13:59:46 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-07-13 13:59:46 DEBUG headers:133 - http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+2018-07-13 13:59:46 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-07-13 13:59:46 DEBUG headers:136 - http-outgoing-0 >> User-Agent: selenium/3.12.0 (java mac)
+2018-07-13 13:59:46 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 500
+2018-07-13 13:59:46 DEBUG headers:136 - http-outgoing-0 >> Host: 127.0.0.1:4723
+2018-07-13 13:59:46 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-07-13 13:59:46 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: selenium/3.12.0 (java mac)[\r][\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 500[\r][\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {"app":"/Users/meruga/Desktop/app/dicks.app","bundleId":"com.dsg.qa.mobile.consumer","deviceName":"iPhone 7","newCommandTimeout":"300","platformName":"iOS","platformVersion":"10.3"},[\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {"app":"/Users/meruga/Desktop/app/dicks.app","bundleId":"com.dsg.qa.mobile.consumer","deviceName":"iPhone 7","newCommandTimeout":"300","platformName":"iOS","platformVersion":"10.3"},[\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "      {"platformName":"ios"}[\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2018-07-13 13:59:46 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2018-07-13 13:59:46 DEBUG wire:87 - http-outgoing-0 >> "}"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Content-Length: 493[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "ETag: W/"1ed-+0CUAXljYWOmfq62ER7JoqTvrXs"[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Date: Fri, 13 Jul 2018 18:00:44 GMT[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:87 - http-outgoing-0 << "{"status":0,"value":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"app":"/Users/meruga/Desktop/app/dicks.app","bundleId":"com.dsg.qa.mobile.consumer","deviceName":"iPhone 7","newCommandTimeout":300,"platformName":"iOS","platformVersion":"10.3","udid":"E7189436-6BE5-44D9-884A-6807D9F50732"},"sessionId":"3380586d-cfad-4dae-8f58-babba2569e38"}"
+2018-07-13 14:00:44 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << X-Powered-By: Express
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Content-Length: 493
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << ETag: W/"1ed-+0CUAXljYWOmfq62ER7JoqTvrXs"
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Date: Fri, 13 Jul 2018 18:00:44 GMT
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Connection: keep-alive
+2018-07-13 14:00:44 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-07-13 14:00:44 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2018-07-13 14:00:44 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-07-13 14:00:44 INFO  BaseMobileTest:10 - First test starts
+2018-07-13 14:00:44 INFO  BaseMobileTest:47 - ===========Ending Test============
+2018-07-13 14:00:44 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-07-13 14:00:44 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-07-13 14:00:44 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-07-13 14:00:44 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-07-13 14:00:44 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-07-13 14:00:44 DEBUG MainClientExec:256 - Executing request DELETE /wd/hub/session/3380586d-cfad-4dae-8f58-babba2569e38 HTTP/1.1
+2018-07-13 14:00:44 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-07-13 14:00:44 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-07-13 14:00:44 DEBUG headers:133 - http-outgoing-0 >> DELETE /wd/hub/session/3380586d-cfad-4dae-8f58-babba2569e38 HTTP/1.1
+2018-07-13 14:00:44 DEBUG headers:136 - http-outgoing-0 >> User-Agent: selenium/3.12.0 (java mac)
+2018-07-13 14:00:44 DEBUG headers:136 - http-outgoing-0 >> Host: 127.0.0.1:4723
+2018-07-13 14:00:44 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-07-13 14:00:44 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 >> "DELETE /wd/hub/session/3380586d-cfad-4dae-8f58-babba2569e38 HTTP/1.1[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: selenium/3.12.0 (java mac)[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Content-Length: 76[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "ETag: W/"4c-irl0d0HypdGoSzZbcxqYG5CFsAU"[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Date: Fri, 13 Jul 2018 18:00:44 GMT[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-07-13 14:00:44 DEBUG wire:87 - http-outgoing-0 << "{"status":0,"value":null,"sessionId":"3380586d-cfad-4dae-8f58-babba2569e38"}"
+2018-07-13 14:00:44 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << X-Powered-By: Express
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Content-Length: 76
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << ETag: W/"4c-irl0d0HypdGoSzZbcxqYG5CFsAU"
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Date: Fri, 13 Jul 2018 18:00:44 GMT
+2018-07-13 14:00:44 DEBUG headers:125 - http-outgoing-0 << Connection: keep-alive
+2018-07-13 14:00:44 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-07-13 14:00:44 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+2018-07-13 14:00:44 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-07-13 14:00:44 DEBUG PoolingHttpClientConnectionManager:407 - Closing connections idle longer than 0 SECONDS
