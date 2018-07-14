@@ -3,6 +3,8 @@
 	thread-count="1">
 	<test name="debug" preserve-order="true">
 		<packages>
+            
+            
 			<package name="com.mobile.appiumTest" />
 		</packages>
 	</test>
