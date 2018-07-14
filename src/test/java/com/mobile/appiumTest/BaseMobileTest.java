@@ -31,7 +31,7 @@ public class BaseMobileTest {
 		DOMConfigurator.configure("log4j.xml");
 
 		LOGGER.info("===========Starting Test============");
-		String driverConfigFilePath = System.getProperty("user.dir") + "/src/test/resources/config/"
+		String driverConfigFilePath = System.getProperty("user.dir") + "/src"
 				+ System.getProperty("driverConfig");
 		DesiredCapabilities capabilities = ReadFromJson.readCapabilities(driverConfigFilePath);
 		String driverConfig = ReadFromJson.readKey(driverConfigFilePath, "platform");
